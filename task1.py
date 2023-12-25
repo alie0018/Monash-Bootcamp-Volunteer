@@ -8,12 +8,12 @@ For example, given the list: [8,3,5,1], your program should output 8351 as an in
 """
 
 
-def list_to_integer(list: list[int]) -> None:
+def list_to_integer(list: list[int]) -> int:
     """
     This function takes a list of digits and returns the combination of each digit into an integer.
 
     :param list: a list of integers
-    :return: None
+    :return: int
     """
     # Initialize an empty string
     result = ""
